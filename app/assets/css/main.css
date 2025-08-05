@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+/* PushPenny Font Family */
+@font-face {
+  font-family: "PushPenny";
+  src: url("../fonts/PushPenny-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PushPenny";
+  src: url("../fonts/PushPenny-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PushPenny";
+  src: url("../fonts/PushPenny-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PushPenny";
+  src: url("../fonts/PushPenny-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PushPenny";
+  src: url("../fonts/PushPenny-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  /* font-family: ""; */
+}
