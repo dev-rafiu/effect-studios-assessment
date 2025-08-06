@@ -11,12 +11,12 @@
           </a>
         </li>
         <li class="relative">
-          <a
-            href="#"
+          <NuxtLink
+            to="/press"
             class="text-gray-700 no-underline text-base font-medium transition-colors duration-200 hover:text-green-700"
           >
             Press
-          </a>
+          </NuxtLink>
         </li>
         <li class="relative">
           <a

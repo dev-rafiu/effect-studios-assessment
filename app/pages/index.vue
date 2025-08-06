@@ -1,6 +1,7 @@
 <!-- eslint-disable @stylistic/quotes -->
 <!-- eslint-disable @stylistic/indent -->
 <script setup lang="ts">
+import Features from "~/components/home/features.vue";
 import Partners from "~/components/home/partners.vue";
 
 definePageMeta({
@@ -10,7 +11,7 @@ definePageMeta({
 
 <template>
   <div>
-    <h1>hello zzzz</h1>
+    <Features />
     <Partners />
   </div>
 </template>
