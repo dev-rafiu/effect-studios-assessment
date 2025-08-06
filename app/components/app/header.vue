@@ -3,6 +3,14 @@
     <nav class="flex justify-center items-center h-15">
       <ul class="flex gap-8 list-none m-0 p-0">
         <li class="relative">
+          <NuxtLink
+            to="/"
+            class="text-gray-700 no-underline text-base font-medium transition-colors duration-200 hover:text-green-700"
+          >
+            Home
+          </NuxtLink>
+        </li>
+        <li class="relative">
           <a
             href="#"
             class="text-gray-700 no-underline text-base font-medium transition-colors duration-200 hover:text-green-700 flex items-center gap-1"

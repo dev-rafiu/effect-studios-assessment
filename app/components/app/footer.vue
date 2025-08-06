@@ -5,17 +5,15 @@
 
 <template>
   <footer class="bg-white container mx-auto">
-    <header class="border-b border-[#6E80A3] py-8">
-      <div class="">
-        <h2
-          class="text-4xl lg:text-5xl font-medium text-[#0D2C65] space-y-2 font-pushpenny"
-        >
-          <span class="block"> Sign up for free </span>
+    <div class="border-b border-[#6E80A3] py-8">
+      <h2
+        class="text-4xl lg:text-5xl font-medium text-[#0D2C65] space-y-2 font-pushpenny"
+      >
+        <span class="block"> Sign up for free </span>
 
-          <span class="block"> Join thousands of users </span>
-        </h2>
-      </div>
-    </header>
+        <span class="block"> Join thousands of users </span>
+      </h2>
+    </div>
 
     <div class="mx-auto px-4 py-12 lg:space-y-20">
       <div class="flex justify-between">

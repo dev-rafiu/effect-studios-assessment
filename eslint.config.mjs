@@ -12,6 +12,11 @@ export default withNuxt({
     "vue/attribute-linebreak": "off",
     "vue/max-attributes-per-line": "off",
     "vue/html-self-closing": "off",
+    "vue/html-closing-bracket-newline": "off",
+    "nuxt/nuxt-config-keys-order": "off",
+    "@stylistic/quotes": "off",
+    "@stylistic/brace-style": "off",
+    "@stylistic/comma-dangle": "off",
   },
 });
 // Your custom configs here
