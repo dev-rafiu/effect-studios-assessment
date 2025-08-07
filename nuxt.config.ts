@@ -4,7 +4,12 @@ import tailwindcss from "@tailwindcss/vite";
 
 export default defineNuxtConfig({
   compatibilityDate: "2025-07-15",
-  ssr: true,
+  nitro: {
+    prerender: {
+      routes: ["/"],
+    },
+  },
+  ssr: false,
   modules: [
     "@nuxt/eslint",
     "@nuxt/image",
